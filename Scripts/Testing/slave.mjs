@@ -1,0 +1,1 @@
+export function doit () { return "doing it"; }

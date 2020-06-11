@@ -1,0 +1,63 @@
+img.password-eyeball {
+	width: auto;
+	height: 2em;
+}/* img.password-eyeball */
+
+
+div.password-cell {
+	margin: 0; padding: 0;
+	display: inline-flex;
+	align-items: center;
+}/* div.password-cell */
+
+
+/********/
+
+
+#login_control { 
+	margin: auto; 
+}/* #login_control */
+
+
+#login_control div.subtext {
+	margin-top: 1em;
+}/* #login_control div.subtext */ 
+
+
+#login_form {
+	display: flex;
+	flex-direction: row;
+}/* #login_form */
+
+
+#login_form label { 
+	font-size: 16pt; 
+}/* #login_form label */
+
+
+#login_form > div:first-child {
+	margin-right: 0.5em;
+}/* #login_form > div:first-child */
+
+
+#login_form button {
+	border-radius: 1.2em;
+}/* #login_form button */
+
+
+/********/
+
+
+#contact_form div.flex-row {
+	align-items: center;
+}/* #signup_form div.flex-row */
+
+	
+#contact_form div.right-button-bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}/* #signup_form div.right-button-bar */
+
+

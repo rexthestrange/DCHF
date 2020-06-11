@@ -1,0 +1,218 @@
+/********/
+
+
+#main_screen {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;		
+	left: 0;
+	background: url("/Images/background.bubbles.jpg");
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+}/* #main_screen */
+
+
+#main_panel {
+	width: 1200px;
+	height: 100%;
+	display: grid;
+	grid-template-rows: [header] min-content [body] 1fr [footer] min-content;
+	justify-items: center;
+	background-color: var(--main-background-color);
+	border: solid var(--main-border-color);
+	border-width: 0 1px;
+}/* #main_panel */
+
+
+
+#main_panel div.header {
+	padding: 1em;
+	width: 100%;
+}/* #main_panel div.header */
+
+
+#main_panel div.header div.main-banner {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}/* #main_panel div.header div.main-banner */
+
+
+
+#main_panel div.body {
+	justify-self: stretch;
+	padding: 0.5em 1em;
+	overflow: hidden;
+	display: grid;
+	grid-template-rows: [buttons] min-content [content] 1fr;
+}/* #main_panel div.body */
+
+#main_panel div.body div.ajax-panel {
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	align-items: center;
+	padding: 2em 1em;
+	overflow: hidden auto;
+}/* #main_panel div.body div.ajax-panel */
+
+
+#main_panel div.footer {
+	font-size: 8pt;
+	font-weight: italic;
+	padding: 1.5em;
+	text-align: center;
+}/* #main_panel div.footer */
+
+
+#description_panel {
+
+	border: solid 1px gray;
+
+}/* #description_panel */
+
+
+/********/
+
+
+div.main-panel {
+	display: flex;
+	flex-direction: row;
+}/* div.main-panel */
+
+
+div.panel, div.subpanel, div.header-panel, div.header-panel h1 {
+	border: solid 1px var(--panel-border-color);
+	border-radius: var(--small-border-radius);
+	position: relative;
+}/* div.panel, div.subpanel, div.header-panel, div.header-panel h1 */
+
+
+div.subpanel {
+	display: inline-block;
+	align-self: center;	
+}/* div.subpanel */
+
+ 
+div.header-panel, div.header-panel h1 {
+	padding: 1em 0 0;
+}/* div.header-panel, div.header-panel h1 */
+
+ 
+div.header-panel h1 {
+	font-size: 9pt;
+	font-weight: bold;
+	position: absolute;
+	left: 2em;
+	top: 0;
+	transform: translateY(-50%);
+	background-color: var(--control-background-color);
+	border-radius: var(--large-border-radius);
+	padding: 0.5em 1em;
+}/* div.header-panel h1 */
+
+
+div.header-panel div.contents {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0 1em 1em 1em;
+}/* div.header-panel div.contents */
+
+
+div.header-sponsor-panel {
+	flex: 1;
+	display: flex;
+	margin-top: 1em;
+}/* div.header-sponsor-panel */
+
+
+div.user-home-controls {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}/* div.user-home-controls */
+
+div.user-home-controls > * { 
+	margin-left: 1em;
+	text-align: right; 
+}/* div.user-home-controls > * */ 
+
+
+/********/
+
+
+div.submission_panels {
+	display: flex;
+	flex-direction: column;
+}/* div.submission_panels */
+	
+
+div.submission_panels div.header-panel {
+	margin: 0 1em 1em;
+	padding: 2em 1em 1em;
+	white-space: nowrap;
+}/* div.submission_panels div.header-panel */
+	
+
+div.submission_panels div.header-panel:not(:first-child) {
+	margin-top: 1em;
+}/* div.submission_panels div.header-panel:not(:first-child) */
+	
+
+/********/
+
+
+div.recent_submissions div.line-item {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: left;
+	font-size: 11pt;
+	font-weight: bold;
+}/* div.recent_submissions div.line-item */
+ 	
+ 	
+/********/
+
+
+div.image-form {
+	margin: auto;
+}/* div.image-form */
+
+
+div.image-form img.upload-image {
+	max-width: 150px;
+	height: auto;
+	border: solid 1px var(--panel-border-color);
+	border-radius: 3px;
+	padding: 1em;
+}/* div.image-form img.upload-image */
+
+
+div.image-form img.garment-image {
+	max-width: 250px;
+}/* div.image-form img.garment-image */
+
+
+div.image-form div.flex-row > *:not(:last-child) {
+	margin-right: 1em;
+}/* div.image-form div.flex-row > *:not(:last-child) */
+
+
+/********/
+
+
+div.information-window p:not(:first-child) {
+	margin-top: 1em;
+}/* div.information-window */
+	
+	
+/********/
+

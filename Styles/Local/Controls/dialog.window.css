@@ -1,0 +1,12 @@
+div.dialog-window {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: var(--dialog-background-color);
+	border: solid 1px var(--dialog-border-color);
+	border-radius: var(--small-border-radius);
+	padding: 1em;
+}/* div.dialog-window */
+
+

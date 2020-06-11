@@ -1,0 +1,52 @@
+/********/
+
+
+#hall_of_fame div.hall-panel {
+	margin: 2em 0;
+}/* #hall_of_fame div.hall-panel */
+
+
+#hall_of_fame div.hall-panel:first-child {
+	margin-top: 1em;
+}/* #hall_of_fame div.hall-panel:first-child */
+
+
+#hall_of_fame div.hall-panel:last-child {
+	margin-bottom: 1em;
+}/* #hall_of_fame div.hall-panel:last-child */
+
+
+
+#private_garments div.garment-list {
+	grid-template-columns: [image] max-content [details] 1fr;
+}/* #private_garment_list div.garment-list */
+
+
+/********/
+
+
+#hall_of_fame progress-bar div.bar { 
+	background-color: var(--panel-border-color);
+	height: 1px;
+	width: 1em;
+}/* #hall_of_fame progress-bar div.bar */	
+
+
+#hall_of_fame progress-bar div.loop {
+	border: solid 1px var(--panel-border-color);
+	border-radius: 999px;
+	width: 0.75em;
+	height: 0.75em; 
+}/* #hall_of_fame progress-bar div.loop */
+
+
+#hall_of_fame progress-bar div.loop.completed {
+	background-color: #0A0;
+}/* #hall_of_fame progress-bar div.loop.completed */
+
+
+/********/
+
+	
+#hall_of_fame div.confirmation-cell { padding: 0 0.5em 0 1em }
+

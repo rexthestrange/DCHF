@@ -1,0 +1,103 @@
+div.application-form { width: min-content; }
+
+
+div.application-form img.header-image {
+	height: 100px; 
+	width: auto; 
+	margin-right: 1em;
+}/* div.application-form img.header-image */	
+
+
+div.application-form h1, div.application-form h2 {
+	margin: 0;
+}/* div.application-form h1, div.application-form h2 */
+
+
+div.application-form h2 {
+	margin-bottom: 1.5em; 
+}/* div.application-form h2 */
+
+
+div.application-form div.form {
+	display: grid;
+	grid-template-columns: [label] min-content [option] 1fr;
+	grid-gap: var(--form-grid-gap);
+	margin-top: 1em;
+	white-space: nowrap;
+}/* div.application-form div.form */
+
+
+div.application-form div.row-table > *:not(:first-child) {
+	margin-left: 1em;
+}/* div.application-form div.row-table > *:not(:first-child) */
+
+
+div.application-form div.header-panel {
+	margin-top: 2em;
+	padding: 2em 1em 1em;
+}/* div.application-form div.header-panel */
+
+
+div.application-form div.contacts div.header-panel { display: flex; flex-direction: column }
+div.application-form div.contacts div.checkbox-cell { align-self: center }
+	
+
+div.application-form div.hours {
+    display: grid;
+    grid-template-columns: repeat(4, min-content);
+    grid-gap: 0.2em 1em;
+    justify-content: center;
+}/* div.application-form div.hours */
+   
+   
+div.application-form div.hours div.options {
+	grid-column: 1 / span 4; 
+	justify-self: right; 
+	margin-top: 1em;    
+}/* div.application-form div.hours div.options */
+
+
+div.application-form div.hours div.header {
+    display: contents;
+    font-style: italic;
+}/* div.application-form div.hours div.header  */
+
+
+div.application-form div.hours div.header div.title {
+	justify-self: center;
+}/* div.hours div.header  */
+
+
+div.application-form div[class$=-hours] {
+	display: contents;
+}/* div.application-form div[class$=-hours] */
+
+
+div.application-form div[class$=-hours] > div {
+	align-self: center;
+}/* div.application-form div[class$=-hours] > div */
+
+
+div.application-form div.radio-list, div.checkbox-list {
+	display: grid;
+	grid-template-columns: [button] min-content [label] min-content;
+	align-items: center;
+	justify-content: center;
+}/* div.application-form div.radio-list, div.checkbox-list */
+
+
+div.application-form div.radio-list input[type=radio], div.checkbox-list input[type=checkbox] {
+	margin-right: 0.5em;
+}/* div.application-form div.radio-list input[type=radio], div.checkbox-list input[type=checkbox] */
+
+
+/********/
+
+
+dynamic-list dynamic-list-form {
+    margin-bottom: 1em;
+}/* dynamic-list dynamic-list-form */
+
+
+  
+
